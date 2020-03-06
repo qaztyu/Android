@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/white">
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@color/color_333"
+		android:background="@null"
+		android:id="@+id/dialog_share_edit"
+		android:padding="10dp"
+		android:textSize="12sp"
+		android:layout_marginTop="20dp"
+		android:textStyle="bold"
+		android:maxHeight="280dp"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:text="@string/share"
+		android:textStyle="bold"
+		android:textColor="@color/themeColor"
+		android:layout_gravity="right"
+		android:id="@+id/dialog_share_button"/>
+
+</LinearLayout>
+

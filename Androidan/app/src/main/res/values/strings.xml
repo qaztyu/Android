@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">Androidan</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_name">网盘搜索</string>
+	<string name="search_button_text">搜 索</string>
+	<string name="exit_toast_message">再按一次返回键退出</string>
+	<string name="empty_toast_message">搜索内容不能为空</string>
+	<string name="about_version_name">软件版本：</string>
+	<string name="about_responsible">免责声明：</string>
+	<string name="about_project_url">开源地址：</string>
+	<string name="about_icons_author">头像作者：</string>
+	<string name="icons_author">https://dribbble.com/prakhar</string>
+	<string name="github">https://github.com/voidlhf/NetdiskSearcherForAndroid</string>
+	<string name="responsible_text">本软件资源来源于网络公开数据，开发者不承担任何责任。</string>
+	<string name="search_result">资源详情</string>
+	<string name="search_list">资源列表</string>
+	<string name="copy_success">链接复制成功</string>
+	<string name="copy">复 制</string>
+	<string name="open">打 开</string>
+	<string name="share">分 享</string>
+	<string name="set_default_interface">已设置为默认搜索接口</string>
+	<string name="list_no_result">搜索不到相应的数据呢⊙﹏⊙</string>
+	<string name="input_hint">请输入要搜索的关键词</string>
 </resources>

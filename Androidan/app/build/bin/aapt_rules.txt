@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:23
+-keep class com.void_lhf.wmsp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.void_lhf.wmsp.SearchDetailsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.void_lhf.wmsp.SearchListActivity { <init>(...); }
+

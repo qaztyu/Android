@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+	 	<item name="android:colorPrimary">@color/white</item>
+		<item name="android:colorPrimaryDark">@color/white</item>
+	  <item name="android:colorAccent">@color/themeColor</item>
+	  	<item name="android:navigationBarColor">@color/white</item>
+	  <item name="android:windowLightNavigationBar">true</item>
+	  	<item name="android:fastScrollThumbDrawable">@drawable/bg_fast_scroll_bar_thumb</item>
+	  	<item name="android:fastScrollTrackDrawable">@null</item>
+	  <item name="android:windowLightStatusBar">true</item>
+	  <item name="android:windowContentOverlay">@null</item>
+  </style>
+</resources>

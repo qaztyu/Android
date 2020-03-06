@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="@color/white">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="280dp"
+		android:background="@drawable/details_background"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/bdInfo"
+			android:textColor="@color/color_333"
+			android:textStyle="bold"
+			android:gravity="center"
+			android:enabled="true"
+			android:textIsSelectable="true"
+			android:focusable="true"
+			android:longClickable="true"
+			android:layout_marginLeft="24dp"
+			android:layout_marginRight="24dp"
+			android:textSize="16sp"/>
+		<ProgressBar
+			android:id="@+id/info_progress_bar"
+			android:layout_width="35dp"
+			android:layout_height="35dp"
+			android:indeterminateTint="@color/themeColor"
+			android:indeterminateTintMode="src_atop"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:gravity="center"
+		android:layout_marginTop="-32dp">
+
+		<ImageView
+			android:layout_width="64dp"
+			android:layout_height="64dp"
+			android:id="@+id/effectiveStatus"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="24dp"
+		android:layout_weight="4"
+		android:id="@+id/clearLayout">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/copy"
+			android:background="@drawable/selector"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:layout_weight="1.0"
+			style="?android:attr/buttonStyleSmall"
+			android:id="@+id/copyButton"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/open"
+			android:background="@drawable/selector"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:layout_weight="1.0"
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			style="?android:attr/buttonStyleSmall"
+			android:id="@+id/openButton"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/share"
+			android:background="@drawable/selector"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:layout_weight="1.0"
+			style="?android:attr/buttonStyleSmall"
+			android:id="@+id/shareButton"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<WebView
+			android:layout_width="match_parent"
+			android:layout_height="300dp"
+			android:id="@+id/search_detailsWebView"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,17 +1,78 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
-    >
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/white">
 
-   <TextView
-     android:text="بىلقۇت تورى پىروگىراممىرلار دۇنياسى!"
-		    android:layout_width="wrap_content"
-	    	android:layout_height="wrap_content"
-	    	android:textSize="17sp"
-    		android:textColor="#000000"
-    		android:shadowColor="#5C5CCD"
-	    	android:shadowRadius="3.0"
-     		android:id="@+id/bilqut"/>
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal">
+
+		<ImageView
+			android:layout_width="80dp"
+			android:layout_height="80dp"
+			android:id="@+id/siteIcon"
+			android:layout_marginTop="80dp"/>
+
+		<Spinner
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="25dp"
+			android:id="@+id/searchSpinner"
+			android:textColor="@color/color_333"
+			android:background="@drawable/spinner_selector"
+			android:layout_marginLeft="50dp"
+			android:layout_marginRight="50dp"
+			android:spinnerMode="dialog"/>
+
+		<EditText
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:background="@drawable/edittext_background"
+			android:layout_marginLeft="35dp"
+			android:layout_marginRight="35dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:paddingTop="12dp"
+			android:paddingBottom="12dp"
+			android:singleLine="true"
+			android:id="@+id/searchEditText"
+			android:textStyle="bold"
+			android:textSize="16sp"
+			android:imeOptions="actionSearch"
+			android:hint="@string/input_hint"
+			android:textColorHint="@color/color_hint"
+			android:textColor="@color/color_333"/>
+
+		<Button
+			android:layout_marginTop="25dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/selector"
+			android:id="@+id/searchButton"
+			android:textColor="@color/white"
+			android:textStyle="bold"
+			android:text="@string/search_button_text"
+			android:layout_marginBottom="16dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"/>
+
 </LinearLayout>
+

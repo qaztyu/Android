@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="75dp"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:layout_marginLeft="24dp">
+
+		<ImageView
+			android:layout_width="8dp"
+			android:layout_height="8dp"
+			android:src="@drawable/item_list"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="75dp"
+		android:background="@null"
+		android:orientation="vertical"
+		android:padding="10dp"
+		android:gravity="center"
+		android:layout_marginRight="24dp">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Text"
+			android:id="@+id/searchlistitemTextView1"
+			android:singleLine="true"
+			android:textColor="@color/color_333"
+			android:textStyle="bold"
+			android:textSize="16sp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Small Text"
+			android:id="@+id/searchlistitemTextView2"
+			android:singleLine="true"
+			android:textSize="11sp"
+			android:layout_marginTop="5dp"
+			android:textColor="@color/color_999"
+			android:textStyle="bold"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
